@@ -4,6 +4,7 @@ body {
     color: rgb(18, 18, 18);
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 /* Home Page */
@@ -98,9 +99,59 @@ body {
 
 /* NPCs */
 
+.content-content {
+    display: flex;
+    justify-content: center;
+}
 
+.npc-container {
+    width: max-content;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
 
+.npc-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    font-weight: bold;
+}
 
+.npc-header div {
+    width: 250px;
+    padding: 5px;
+}
+
+.npc-header .left {
+    display: flex;
+    justify-content: center;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.npc-header .middle {
+    display: flex;
+    justify-content: center;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.npc-header .right {
+    display: flex;
+    justify-content: center;
+}
+
+.npc-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.npc-content div {
+    width: 250px;
+    padding: 5px;
+}
 
 
 /* Quests */
