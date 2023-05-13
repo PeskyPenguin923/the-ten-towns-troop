@@ -1,7 +1,66 @@
 body {
     margin: 0;
-    background-color: rgb(11, 11, 11);
-    color: white;
+    background-color: rgb(98, 107, 109);
+    color: rgb(18, 18, 18);
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Home Page */
+
+
+.menu-links {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+/* Heros */
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-container {
+    display: flex;
+    background-color: rgb(110, 110, 110);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.hero-img img {
+    height: 200px;
+    width: auto;
+    border-style: groove;
+    border-width: 2px;
+    border-color: gold;
+    border-radius: 10px;
+}
+
+.hero-right {
+    width: max-content;
+    margin: 5px;
+}
+
+.hero-name {
+    font-size: 20px;
+    font-weight: bold;
 }
