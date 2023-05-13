@@ -7,11 +7,19 @@ body {
 }
 
 /* Home Page */
-
+.menu {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: black;
+}
 
 .menu-links {
+    height: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
 
