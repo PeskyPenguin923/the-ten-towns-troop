@@ -165,6 +165,17 @@ body {
     border-right-width: 2px;
 }
 
+.npc-poster {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.npc-image img {
+    width: 500px;
+    height: auto;
+    border-style: double;
+    border-color: gold;
+}
 
 
 /* Quests */
