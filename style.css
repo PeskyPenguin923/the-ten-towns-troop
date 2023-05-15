@@ -146,12 +146,25 @@ body {
 .npc-content {
     display: flex;
     justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
 
 .npc-content div {
     width: 250px;
     padding: 5px;
 }
+
+.npc-content .left {
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.npc-content .middle {
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
 
 
 /* Quests */
