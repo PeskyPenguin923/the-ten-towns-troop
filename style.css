@@ -99,7 +99,7 @@ body {
 
 /* NPCs */
 
-.content-content {
+.content-container {
     display: flex;
     justify-content: center;
 }
@@ -179,8 +179,59 @@ body {
 
 
 /* Quests */
+.quest-content {
+    width: max-content;
+}
 
+.quest-table {
+    display: flex;
+    justify-content: space-around;
+    width: max-content;
+}
 
+.quest-table div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-right-style: solid;
+    border-right-width: 2px;
+    width: 200px;
+    padding: 5px;
+}
+
+.quest-header {
+    display: flex;
+    justify-content: space-around;
+    width: max-content;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.quest-header div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 200px;
+    padding: 5px;
+}
+
+.quest-header div {
+    font-weight: bold;
+    border-right-style: solid;
+    border-right-width: 2px;
+}
+
+.quest-header .left {
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.quest-table .left {
+    border-left-style: solid;
+    border-left-width: 2px;
+}
 
 /* Log */
 
