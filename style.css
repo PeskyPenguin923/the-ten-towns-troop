@@ -100,64 +100,38 @@ body {
 
 /* NPCs */
 
+.npc-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
+}
 
 .npc-container {
+    display: flex;
+    background-color: rgb(110, 110, 110);
     border-style: solid;
     border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.npc-img img {
+    height: 200px;
+    width: auto;
+    border-style: groove;
+    border-width: 2px;
+    border-color: gold;
     border-radius: 10px;
 }
 
-.npc-header {
-    display: flex;
-    justify-content: space-between;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
+.npc-right {
+    margin: 5px;
+}
+
+.npc-name {
+    font-size: 20px;
     font-weight: bold;
-}
-
-.npc-header div {
-    padding: 5px;
-}
-
-.npc-header .left {
-    display: flex;
-    justify-content: center;
-    border-right-style: solid;
-    border-right-width: 2px;
-}
-
-.npc-header .middle {
-    display: flex;
-    justify-content: center;
-    border-right-style: solid;
-    border-right-width: 2px;
-}
-
-.npc-header .right {
-    display: flex;
-    justify-content: center;
-}
-
-.npc-content {
-    display: flex;
-    justify-content: space-between;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-}
-
-.npc-content div {
-    padding: 5px;
-}
-
-.npc-content .left {
-    border-right-style: solid;
-    border-right-width: 2px;
-}
-
-.npc-content .middle {
-    border-right-style: solid;
-    border-right-width: 2px;
 }
 
 .npc-poster {
@@ -173,74 +147,6 @@ body {
 }
 
 
-/* New NPC */
-
-.content-container {
-    display: flex;
-    justify-content: center;
-}
-
-.npc-name .header {
-    font-weight: bold;
-    padding-left: 10px;
-    border-bottom-style: solid;
-}
-
-.npc-name {
-    border-left-style: solid;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-color: black;
-}
-
-.name {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom-style: solid;
-
-}
-
-.npc-location .header {
-    font-weight: bold;
-    padding-left: 10px;
-    border-bottom-style: solid;
-}
-
-.npc-location {
-    border-left-style: solid;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-color: black;
-}
-
-.location {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom-style: solid;
-}
-
-.npc-description .header {
-    font-weight: bold;
-    padding-left: 10px;
-    border-bottom-style: solid;
-}
-
-.npc-description {
-    border-left-style: solid;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-right-style: solid;
-    border-width: 2px;
-    border-color: black;
-}
-
-.description {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-bottom-style: solid;
-}
 
 /* Quests */
 .quest-content {
