@@ -100,13 +100,9 @@ body {
 
 /* NPCs */
 
-.content-container {
-    display: flex;
-    justify-content: center;
-}
+
 
 .npc-container {
-    width: max-content;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
@@ -121,7 +117,6 @@ body {
 }
 
 .npc-header div {
-    width: 250px;
     padding: 5px;
 }
 
@@ -152,7 +147,6 @@ body {
 }
 
 .npc-content div {
-    width: 250px;
     padding: 5px;
 }
 
@@ -176,6 +170,14 @@ body {
     height: auto;
     border-style: double;
     border-color: gold;
+}
+
+
+/* New NPC */
+
+.content-container {
+    display: flex;
+    justify-content: center;
 }
 
 
