@@ -180,6 +180,67 @@ body {
     justify-content: center;
 }
 
+.npc-name .header {
+    font-weight: bold;
+    padding-left: 10px;
+    border-bottom-style: solid;
+}
+
+.npc-name {
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.name {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-style: solid;
+
+}
+
+.npc-location .header {
+    font-weight: bold;
+    padding-left: 10px;
+    border-bottom-style: solid;
+}
+
+.npc-location {
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.location {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-style: solid;
+}
+
+.npc-description .header {
+    font-weight: bold;
+    padding-left: 10px;
+    border-bottom-style: solid;
+}
+
+.npc-description {
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.description {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-style: solid;
+}
 
 /* Quests */
 .quest-content {
@@ -241,12 +302,11 @@ body {
 
 
 .log-container {
-    width: 600px;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 20px;
 }
 
@@ -260,15 +320,15 @@ body {
 }
 
 .log-container .npc-list {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     padding: 5px;
     border-bottom-style: solid;
     border-bottom-width: 2px;
 }
 
 .npc-list a {
-    padding: 5px;
+    padding: 10px;
 }
 
 .log-container .summary {
