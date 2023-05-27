@@ -150,59 +150,38 @@ body {
 
 
 /* Quests */
-.quest-content {
-    width: max-content;
+
+
+
+.quest-list {
+    border-style: solid;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.quest-table {
+.quest-list .header {
     display: flex;
-    justify-content: space-around;
-    width: max-content;
+    justify-content: center;
 }
 
-.quest-table div {
+.quest-list .list div {
     display: flex;
-    justify-content: space-between;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-right-style: solid;
-    border-right-width: 2px;
-    width: 200px;
-    padding: 5px;
+    justify-content: center;
 }
 
-.quest-header {
-    display: flex;
-    justify-content: space-around;
-    width: max-content;
-    border-top-style: solid;
-    border-top-width: 2px;
+.quest-info-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
 }
 
-.quest-header div {
-    display: flex;
-    justify-content: space-between;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    width: 200px;
-    padding: 5px;
+.quest-container {
+    border-style: solid;
+    margin: 10px;
 }
 
-.quest-header div {
-    font-weight: bold;
-    border-right-style: solid;
-    border-right-width: 2px;
-}
-
-.quest-header .left {
-    border-left-style: solid;
-    border-left-width: 2px;
-}
-
-.quest-table .left {
-    border-left-style: solid;
-    border-left-width: 2px;
-}
 
 /* Log */
 
