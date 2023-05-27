@@ -165,6 +165,7 @@ body {
 .quest-list .header {
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .quest-list .list div {
@@ -180,6 +181,10 @@ body {
 .quest-container {
     border-style: solid;
     margin: 10px;
+}
+
+.quest-container .header {
+    font-weight: bold;
 }
 
 
