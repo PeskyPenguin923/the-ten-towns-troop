@@ -102,7 +102,7 @@ body {
 
 .npc-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
 
 }
 
@@ -117,7 +117,7 @@ body {
 }
 
 .npc-img img {
-    height: 200px;
+    height: 150px;
     width: auto;
     border-style: groove;
     border-width: 2px;
